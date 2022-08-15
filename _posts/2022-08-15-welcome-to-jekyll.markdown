@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "Hello World, It's MINSOO"
 date:   2022-08-15 12:17:34 +0900
 categories: jekyll update
 ---
