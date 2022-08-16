@@ -41,7 +41,7 @@ plainwhite:
     
   navigation:
    - title: Who_am_I?
-     url: "/jekyll/update/2022/08/16/first-post.html"
+     url: "/self-introduce/2022/08/16/first-post.html"
    - title: Cisco
      url: "/cisco"
 # Build settings
