@@ -30,7 +30,7 @@ github_username:  n3trnr
 # Build settings
 theme: minima
 #remote-theme : artemsheludko/flexible-jekyll
-
+remote-theme : mmistakes/minimal-mistakes
 
 plugins:
   - jekyll-feed
