@@ -38,6 +38,12 @@ plainwhite:
     github: n3trnr
     linkedIn: in/minsoo-ju-40433b244
     email: marksman1207@gmail.com
+    
+   navigation:
+    - title: Who am I?
+      url: "/jekyll/update/2022/08/16/first-post"
+    - title: Cisco
+      url: "/cisco"
 # Build settings
 #theme: minima
 #remote-theme : artemsheludko/flexible-jekyll
@@ -45,6 +51,8 @@ plainwhite:
 remote_theme: samarsault/plainwhite-jekyll
 plugins:
   - jekyll-feed
+
+
 
 # Exclude from processing.
 # The following items will not be processed, by default.
