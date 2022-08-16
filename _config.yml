@@ -28,10 +28,10 @@ url: "https://n3trnr.github.io/" # the base hostname & protocol for your site, e
 github_username:  n3trnr
 
 # Build settings
-theme: minima
+#theme: minima
 #remote-theme : artemsheludko/flexible-jekyll
-remote-theme : mmistakes/minimal-mistakes
-
+#remote-theme : mmistakes/minimal-mistakes
+remote_theme: samarsault/plainwhite-jekyll
 plugins:
   - jekyll-feed
 
