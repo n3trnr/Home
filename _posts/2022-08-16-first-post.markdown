@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "My first post"
+title:  "Hello, It's Minsoo!"
 date:   2022-08-16 16:17:44 +0900
 categories: jekyll update
 ---
