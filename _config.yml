@@ -27,6 +27,14 @@ url: "https://n3trnr.github.io/" # the base hostname & protocol for your site, e
 #twitter_username: jekyllrb
 github_username:  n3trnr
 
+plainwhite:
+  name: Minsoo Ju
+  tagline: IT Infrastructure Manager, DevNetOps
+  date_format: "%b %-d, %Y"
+
+  social_links:
+    github: n3trnr
+    linkedIn: https://www.linkedin.com/in/minsoo-ju-40433b244/
 # Build settings
 #theme: minima
 #remote-theme : artemsheludko/flexible-jekyll
