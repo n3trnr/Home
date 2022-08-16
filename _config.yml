@@ -31,7 +31,9 @@ plainwhite:
   name: Minsoo Ju
   tagline: IT Infrastructure Manager, DevNetOps
   date_format: "%b %-d, %Y"
-
+  sitemap: true # set to true to generate sitemap.xml content
+  search: true
+  portfolio_image: "assets/mypic1.png"
   social_links:
     github: n3trnr
     linkedIn: in/minsoo-ju-40433b244
