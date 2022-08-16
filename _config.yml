@@ -33,7 +33,7 @@ plainwhite:
   date_format: "%b %-d, %Y"
   sitemap: true # set to true to generate sitemap.xml content
   search: true
-  portfolio_image: "assets/mypic1.png"
+  portfolio_image: "assets/mypic2.png"
   social_links:
     github: n3trnr
     linkedIn: in/minsoo-ju-40433b244
