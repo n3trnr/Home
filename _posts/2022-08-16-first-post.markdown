@@ -34,7 +34,8 @@ after graduated Myongji College, I'm working as IT Infrastructure Manager in Ref
 #### Network devices 
 - Setting Cisco Router, L2 ~ L3 Switches
 - Make or edit routing tables in Cisco routers and L3 switches
-- Troubleshooting 
+- Troubleshooting when line is down 
+- Configure VPN or private line connections between companies
 
 #### Security devices
 - Managed Fortigate 80E, 100E
