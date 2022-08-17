@@ -10,7 +10,7 @@ Born in Dec 7th 1994
 
 Living in Seoul, Republic of Korea
 
-after graduated Myongji Colleage, I'm working as IT Infrastructure Manager in Refine co.
+after graduated Myongji Colleage, I'm working as IT Infrastructure Manager in Refine co. Since April 2019.
 
 I have experiance at
 
