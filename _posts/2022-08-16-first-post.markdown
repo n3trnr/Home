@@ -26,6 +26,8 @@ I have experiance at
 
 #### Server Management
 - On-premise Linux & Windows servers
+- Cloud Computing Servers on AWS (usually Amazon Linux and Windows Server 2016, 2019)
+- PBX VoIP call server management
 - Collects logs and make alert for each servers 
 - Troubleshooting when error shows out
 
