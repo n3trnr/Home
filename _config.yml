@@ -43,7 +43,7 @@ plainwhite:
    - title: Who_am_I?
      url: "/Who_am_I"
    - title: Network
-     url: "_posts/Network"
+     url: "/Networks"
 # Build settings
 #theme: minima
 #remote-theme : artemsheludko/flexible-jekyll

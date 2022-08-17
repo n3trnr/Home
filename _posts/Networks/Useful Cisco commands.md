@@ -1,3 +1,12 @@
+---
+layout: page
+title:  "useful_cisco_commands"
+date:   2022-08-17 16:21:30 +0900
+categories: cisco
+tags: useful_cisco_commands
+permalink: /Networks/useful_cisco_commands
+---
+
 # Useful Cisco commands
 
 [VLAN](Useful%20Cisco%20commands%20381e53546556453ca4e2af699002fc1f/VLAN%2022fcc80cf580498f9ca3d14326e29939.md)
