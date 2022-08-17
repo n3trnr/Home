@@ -8,9 +8,9 @@ Hi, my name is Minsoo Ju
 
 Born in Dec 7th 1994
 
-Living in Seoul, Republic of Korea
+Living in Seoul, Republic of Korea (aka South Korea not DPRK!)
 
-after graduated Myongji Colleage, I'm working as IT Infrastructure Manager in Refine co. Since April 2019.
+after graduated Myongji College, I'm working as IT Infrastructure Manager in Refine co. Since April 2019.
 
 I have experiance at
 
@@ -27,6 +27,7 @@ I have experiance at
 #### Server Management
 - On-premise Linux & Windows servers
 - Collects logs and make alert for each servers 
+- Troubleshooting when error shows out
 
 #### Network devices 
 - Setting Cisco Router, L2 ~ L3 Switches
