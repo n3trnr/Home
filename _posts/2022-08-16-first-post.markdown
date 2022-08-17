@@ -3,6 +3,8 @@ layout: post
 title:  "Hello, It's Minsoo!"
 date:   2022-08-16 16:17:44 +0900
 categories: Who_am_I
+tags: Who_am_I
+permalink: /Who_am_I
 ---
 Hi, my name is Minsoo Ju
 
