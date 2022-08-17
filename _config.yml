@@ -42,7 +42,7 @@ plainwhite:
   navigation:
    - title: Who_am_I?
      url: "/Who_am_I"
-   - title: AWS?
+   - title: AWS
      url: "/AWS" 
    - title: Networks
      url: "/Networks"
