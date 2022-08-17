@@ -12,7 +12,7 @@ Living in Seoul, Republic of Korea (aka South Korea not DPRK!)
 
 after graduated Myongji College, I'm working as IT Infrastructure Manager in Refine co. Since April 2019.
 
-I have experiance at
+### I have experiance at
 
 #### AWS 
 - Virtual Private Cloud
