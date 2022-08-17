@@ -22,7 +22,7 @@ title: It's Minsoo!
 email: marksman1207@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
  Powered by Github Blog 
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/home" # the subpath of your site, e.g. /blog
 url: "https://n3trnr.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
 github_username:  n3trnr
