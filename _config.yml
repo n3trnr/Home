@@ -46,12 +46,10 @@ plainwhite:
      url: "/AWS" 
    - title: Networks
      url: "/Networks"
-   - title: Linux
-     url: "/Linux"
-   - title: Windows
-     url: "/Windows"
-   - title: hobbies!
-     url: "/hob"
+   - title: Servers
+     url: "/Servers"
+   - title: etc
+     url: "/etc"
 # Build settings
 #theme: minima
 #remote-theme : artemsheludko/flexible-jekyll
