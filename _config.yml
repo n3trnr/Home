@@ -33,7 +33,7 @@ plainwhite:
   date_format: "%b %-d, %Y"
   sitemap: true # set to true to generate sitemap.xml content
   search: true
-  portfolio_image: "assets/mypic2.png"
+  portfolio_image: "assets/mypic3.png"
   social_links:
     github: n3trnr
     linkedIn: in/minsoo-ju-40433b244
@@ -43,7 +43,7 @@ plainwhite:
    - title: Who_am_I?
      url: "/self-introduce/2022/08/16/first-post.html"
    - title: Network
-     url: "/Network"
+     url: "_posts/Network"
 # Build settings
 #theme: minima
 #remote-theme : artemsheludko/flexible-jekyll
