@@ -50,6 +50,11 @@ plainwhite:
      url: "/Servers"
    - title: etc
      url: "/etc"
+
+  condensed_mobile:
+    - home
+    - post
+    - page
 # Build settings
 #theme: minima
 #remote-theme : artemsheludko/flexible-jekyll
