@@ -4,7 +4,7 @@ title:  "vlan"
 date:   2022-08-17 16:21:30 +0900
 categories: cisco
 tags: vlan
-permalink: /Networks/useful_cisco_commands/vlan
+
 ---
 
 # VLAN
