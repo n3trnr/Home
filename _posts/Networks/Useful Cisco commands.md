@@ -9,7 +9,7 @@ permalink: /Networks/useful_cisco_commands
 
 # Useful Cisco commands
 
-[VLAN](/Networks/useful_cisco_commands/VLAN%2022fcc80cf580498f9ca3d14326e29939.md)
+[VLAN](/Networks/useful_cisco_commands/vlan.md)
 
 ### attempting SSH to another device in Cisco devices
 

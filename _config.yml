@@ -42,8 +42,16 @@ plainwhite:
   navigation:
    - title: Who_am_I?
      url: "/Who_am_I"
+   - title: AWS?
+     url: "/AWS" 
    - title: Networks
      url: "/Networks"
+   - title: Linux
+     url: "/Linux"
+   - title: Windows
+     url: "/Windows"
+   - title: hobbies!
+     url: "/hob"
 # Build settings
 #theme: minima
 #remote-theme : artemsheludko/flexible-jekyll
