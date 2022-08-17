@@ -27,6 +27,9 @@ url: "https://n3trnr.github.io/" # the base hostname & protocol for your site, e
 #twitter_username: jekyllrb
 github_username:  n3trnr
 
+sass:
+  sass_dir: _sass
+
 plainwhite:
   name: Minsoo Ju
   tagline: IT Infrastructure Manager, DevNetOps
