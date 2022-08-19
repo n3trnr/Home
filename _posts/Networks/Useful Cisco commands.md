@@ -4,7 +4,7 @@ title:  "useful_cisco_commands"
 date:   2022-08-17 16:21:30 +0900
 categories: cisco
 tags: useful_cisco_commands
-permalink: /useful_cisco_commands/
+permalink: /Network/useful_cisco_commands/
 
 ---
 
