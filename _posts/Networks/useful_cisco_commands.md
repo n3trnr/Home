@@ -11,9 +11,6 @@ permalink: /Networks/useful_cisco_commands/
 # Useful Cisco commands
 
 
-[VLAN](_post/VLAN.md)
-
-
 ### attempting SSH to another device in Cisco devices
 
 ```jsx
@@ -62,4 +59,10 @@ show ip route
 
 ```
 show mac address-table | i <Mac Address>
+```
+
+### Finding your neighbor network devices
+
+```
+show cdp neighbor
 ```
