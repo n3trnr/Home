@@ -6,6 +6,7 @@ categories: Who_am_I
 tags: Who_am_I
 permalink: /Who_am_I
 ---
+* * *
 Hi, my name is Minsoo Ju
 
 Born in Dec 7th 1994
