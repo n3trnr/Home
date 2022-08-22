@@ -2,9 +2,9 @@
 layout: page
 title:  "useful_cisco_commands"
 date:   2022-08-17 16:21:30 +0900
-categories: cisco
+categories: Networks
 tags: useful_cisco_commands
-permalink: /Network/useful_cisco_commands/
+permalink: /Networks/useful_cisco_commands/
 
 ---
 
