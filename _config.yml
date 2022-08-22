@@ -32,7 +32,7 @@ sass:
 
 plainwhite:
   name: Minsoo Ju
-  tagline: IT Infrastructure Manager, DevNetOps
+  tagline: IT Infrastructure Manager
   date_format: "%b %-d, %Y"
   sitemap: true # set to true to generate sitemap.xml content
 #  search: true
