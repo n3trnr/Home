@@ -10,10 +10,8 @@ permalink: /Networks/SSH/
 ## What's SSH? 
 
 SSH, Secure Socket Shell was developed to make up for vulnarability of Telnet services. \
-With encryption key, SSH provides secured remote connection between network devices.  \
-
-
-
+With encryption key, SSH provides secured remote connection between network devices.  
+<br/>
 
 ## How to set SSH on Cisco device?
 
@@ -53,4 +51,12 @@ Switch(config-line)#login local
 
 ## Additional configuration
 
+### Setting SSH version
+
 ```
+Switch(config)#ip ssh version 1 ## SSH v1
+
+Switch(config)#ip ssh version 2 ## uses SSH v2 (official Cisco recommended)
+
+Switch(config)#no ip ssh version ## uses both v1 and v2
+
