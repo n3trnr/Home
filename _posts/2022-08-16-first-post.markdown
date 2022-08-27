@@ -13,8 +13,10 @@ Born in Dec 7th 1994
 
 Living in Seoul, Republic of Korea (aka South Korea not DPRK!)
 
-after graduated Myongji College, I'm working as IT Infrastructure Manager in Refine co. Since April 2019.
+after graduated Myongji College, currently working as IT Infrastructure Assistant Manager in Refine co. Since April 2019.
 
+I'm in charge of managing Internal & External network connections and on-prem & AWS cloud servers.
+ 
 ### I have experiance at
 
 #### AWS 
