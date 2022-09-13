@@ -1,10 +1,10 @@
 ---
-layout: post
-title:  "AWS"
+layout: page
+title:  "AWS-concept"
 date:   2022-08-22 17:39:30 +0900
 categories: AWS
 tags: AWS
-permalink: /AWS
+permalink: /AWS/AWS-concept
 ---
 
 Let's assume that you wanna build your own online shopping website! \
@@ -13,7 +13,7 @@ also let's assume you are a quite challengable person so that you wanna try it w
 <br/>
 
 ![amazon-website](/assets/amazon-page.png)
-##### <p align="center"> ▲ as all we know, Amazon was also started from online shopping website. How coincidence!</p>
+<p align="center" > ▲ as all we know, Amazon was also started from online shopping website. How coincidence!</p>
 
 First of all, you need to build your own private cloud environment.
 Usually most of AWS cloud environments are looks like this
