@@ -10,4 +10,4 @@ permalink: /AWS
 
 [Basic Concept of AWS](/AWS/AWS-concept)
 
-[Lambda](/AWS/Lambda)
+[Lambda](/AWS/lambda)

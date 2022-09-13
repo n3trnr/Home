@@ -6,6 +6,7 @@ categories: AWS
 tags: AWS
 permalink: /AWS/AWS-concept
 ---
+# About AWS
 
 Let's assume that you wanna build your own online shopping website! \
 also let's assume you are a quite challengable person so that you wanna try it with AWS
