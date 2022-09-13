@@ -7,7 +7,6 @@ tags: AWS
 permalink: /AWS
 ---
 
-## AWS
 
 [Basic Concept of AWS](/AWS/AWS-concept)
 

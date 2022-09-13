@@ -1,6 +1,6 @@
 ---
-layout: page
-title:  "AWS-concept"
+layout: post
+title:  "AWS-Concepts"
 date:   2022-08-22 17:39:30 +0900
 categories: AWS
 tags: AWS

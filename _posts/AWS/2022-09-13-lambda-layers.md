@@ -9,8 +9,8 @@ permalink: /AWS/lambda/lambda-layer
 
 ## How to add Lambda-Layers
 -----
-(This guide is based on Python 3.9 version)
-
+### (This guide is based on Python 3.9 version and Windows PC)
+<br>
 1.  First, you need to download the external library in your local computer (that means, pip must be installed in your local computer)
  
 ```
