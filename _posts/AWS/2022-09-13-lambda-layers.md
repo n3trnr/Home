@@ -11,7 +11,7 @@ permalink: /AWS/lambda/lambda-layer
 -----
 ### (This guide is based on Python 3.9 version and Windows PC)
 <br>
-*  Before we begin, please check your python version in your local PC. you can check your python version by this command 
+※  Before we begin, please check your python version in your local PC. you can check your python version by this command 
   
   ```
 PS C:\Users> pip --version
@@ -52,6 +52,8 @@ cd /your_package_name/python/
   cd ../..
 ```
 
+<br>
+
 - And then, you should zip the directory as its package name. <br>
   (In this example, I used PowerShell script. But if you have another Zip-File maker (ex. Winzip), you can use it )
 ```
@@ -60,11 +62,17 @@ cd /your_package_name/python/
   Compress-Archive -Path ./[your_package_name] ./[your_package_name].zip
 ```
 
+<br>
+
 - Now you finished to created package file to upload! Move on to AWS Lambda Console
   ![lambda_2](/assets/lambda_2.png)
 
+<br>
+
 - Go to [Additional Layers] - [Layers] and then press [Create Layer] Button on Console
   ![lambda_3](/assets/lambda_3.png)
+
+<br>
 
 - Fill out the Name and Description then select [Upload a .zip file] among radio button. After that press [Upload] button.
   ![lambda_4](/assets/lambda_4.png)
