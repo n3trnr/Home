@@ -26,7 +26,7 @@ pip 22.0.4 from C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.9
 ```
  /your_package_name/python/
 ```
-<br>
+
 
 ### -  After you make directory, move to that directory by shell program
 <br>
@@ -78,12 +78,14 @@ cd /your_package_name/python/
 ### - Fill out the Name and Description then select [Upload a .zip file] among radio button. After that press [Upload] button.
   ![lambda_4](/assets/lambda_4.png)
 <p align='center'> You can also add compartible runtimes and license as options </p>
+<br>
 
 ### ※ Pacakge file must be below 10MB. If its not, you should upload by S3
 <br>
 
 ### - And now you succesfully uploaded python package into Lambda layer
-    ![lambda_5](/assets/lambda_5.png)
+
+  ![lambda_5](/assets/lambda_5.png)
     
 <br>
 
