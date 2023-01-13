@@ -103,6 +103,6 @@ cd /your_package_name/python/
 
    ![lambda_8](/assets/lambda_8.png)
 
-### - If you can't find your layer when you about to add, return to Lambda Layer page and find your layer, add Compartible architectures and Comaprtible runtimes. 
+### - If you can't find your layer when you about to add, return to Lambda Layer page and add proper [Compartible architectures] and [Comaprtible runtimes]. 
 
    ![lambda_9](/assets/lambda_9.png)
