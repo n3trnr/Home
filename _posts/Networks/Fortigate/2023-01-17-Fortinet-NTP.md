@@ -4,7 +4,7 @@ title:  "How to set NTP server in Fortigate Firewall?"
 date:   2023-01-17-16:14
 categories: Networks
 tags: Firewall
-permalink: /Networks/Fortigate Firewall/Fortigate_NTP
+permalink: /Networks/Fortigate/Fortigate_NTP
 ---
 # How to set NTP server in Fortigate Firewall?
 
