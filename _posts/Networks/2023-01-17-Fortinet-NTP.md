@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title:  "How to set NTP server in Fortigate Firewall?"
 date:   2023-01-17-16:14
 categories: Networks
