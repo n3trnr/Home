@@ -6,7 +6,6 @@ categories: Networks
 tags: Firewall
 permalink: /Networks/Fortigate/Fortigate_NTP
 ---
-# How to set NTP server in Fortigate Firewall?
 
 ---
 <br>
