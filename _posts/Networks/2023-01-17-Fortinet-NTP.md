@@ -30,6 +30,8 @@ In Fortigate devices, you can configure NTP server address by GUI interface
     set server-mode enable
     set interface "fortilink"
     end
+  ```
+  
 in this case, your Fortigate Firewall's NTP function has not been enabled. So we need to enable its function first.
 <br>
   
