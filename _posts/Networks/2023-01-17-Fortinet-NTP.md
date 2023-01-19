@@ -24,21 +24,21 @@ In Fortigate devices, you can configure NTP server address by GUI interface
 
 - You can check NTP server status of your Fortigate system before you begin like this
 
-  ```
+```
   Fortigate_FW $ show system ntp
     config system ntp
     set server-mode enable
     set interface "fortilink"
     end
-  ```
-  
+```
+
 in this case, your Fortigate Firewall's NTP function has not been enabled. So we need to enable its function first.
 <br>
   
 
 - Enabling NTP Sync
 
-  ```
+```
   Fortigate_FW $ config system ntp
   Fortigate_FW (ntp) $ set ntpsync enable
  
@@ -50,6 +50,8 @@ in this case, your Fortigate Firewall's NTP function has not been enabled. So we
       set server-mode enable
       set interface "fortilink"
     end
+```
+
 <br>
 
 - Setting the custom NTP Server IP
@@ -66,7 +68,9 @@ Fortigate_FW (1) $ next
 Fortigate_FW (ntpserver) $ end
 Fortigate_FW (ntp) $ end
 ```
+
 - And you will get the result like this
+
 ```
 Fortigate_FW $ show system ntp
 config system ntp
