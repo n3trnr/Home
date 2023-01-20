@@ -9,3 +9,10 @@ permalink: /Networks/Fortigate/Fortigate_syslog
 
 ---
 <br>
+
+ Just like any other network devices, you can configure syslog collecting server in Fortigate devices
+
+### ※ Before you begin this procedure, make sure you have permission to configure Static Route, IPv4 Policy and Log Settings in your Fortigate device
+
+<br>
+

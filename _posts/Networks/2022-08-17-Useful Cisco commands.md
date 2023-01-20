@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title:  "Useful Cisco Commands"
 date:   2022-08-17 16:21:30 +0900
 categories: Networks
@@ -9,7 +9,6 @@ permalink: /Networks/useful_cisco_commands/
 ---
 
 # Useful Cisco commands
-
 
 ### attempting SSH to another device in Cisco devices
 
