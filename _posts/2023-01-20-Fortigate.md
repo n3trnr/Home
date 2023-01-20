@@ -11,4 +11,4 @@ permalink: /Networks/Fortigate
 
 ---
 
-[How to set NTP server in Fortigate Firewall](/Networks/Fortigate_NTP)
+[How to set NTP server in Fortigate Firewall](/Networks/Fortigate/Fortigate_NTP)
