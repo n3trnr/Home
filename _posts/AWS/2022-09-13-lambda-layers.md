@@ -1,13 +1,12 @@
 ---
-layout: page
-title:  "Lambda-Layers"
+layout: post
+title:  "How to add Lambda-Layers"
 date:   2022-09-13 14:55:30 +0900
 categories: AWS
 tags: AWS
 permalink: /AWS/lambda/lambda-layer
 ---
 
-## How to add Lambda-Layers
 -----
 ### (This guide is based on Python 3.9 version and Windows PC)
 <br>
