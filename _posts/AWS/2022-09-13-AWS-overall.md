@@ -12,4 +12,4 @@ permalink: /AWS
 
 [Lambda](/AWS/lambda)
 
-[Cloudwatch](/AWS/Cloudwatch)
+[Cloudwatch](/_posts/AWS/Cloudwatch/2023-02-06%20Cloudwatch.md)
