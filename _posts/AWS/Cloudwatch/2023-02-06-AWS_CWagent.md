@@ -8,11 +8,13 @@ permalink: /AWS/CloudWatch/Install_&_Configure_CWAgent
 ---
 This textbook is about how to install & configure AWS CloudWatch agent in EC2 instance
 
-## Prerequisite
+## Prerequisite 
+
+-> You need IAM role for collects resources from EC2 instance.
 
 <br>
 
-### 1.  Making IAM Role for Cloudwatch agent
+### -  Making IAM Role for Cloudwatch agent
 
 - Go to AWS IAM console and select [Roles] - [Create Role]
 - Select [AWS Service] - [EC2]
@@ -28,7 +30,7 @@ This textbook is about how to install & configure AWS CloudWatch agent in EC2 in
 ![aws_cwagent3](/assets/aws/cwagent/aws_cwagent3.png)
 ![aws_cwagent4](/assets/aws/cwagent/aws_cwagent4.png)
 
-※ If you dont add this role, this error will shows up when you start CWagent app
+**※ If you dont add this role, this error will shows up when you start CWagent app**
 
 ![aws_cwagent_err](/assets/aws/cwagent/aws_cwagent_error.jpg)
 
@@ -49,12 +51,16 @@ https://s3.amazonaws.com/amazoncloudwatch-agent/amazon_linux/amd64/latest/amazon
 ```
 - if you download rpm file, unzip the file 
 ```
-  sudo rpm -ivh amazon-cloudwatch-agent.rpm   # run as root
+  sudo rpm -ivh amazon-cloudwatch-agent.rpm 
 ```
 
-**sudo /opt/aws/amazon-cloudwatch-agent/bin/amazon-cloudwatch-agent-config-wizard** -> 컨피그 위자드 실행 (이것도 루트 권한 필요)
+- After you unzip the file, execute config wizard for configuring agent
 
-위자드를 실행하면 다음과 같이 질의문이 나옵니다.
+```
+sudo /opt/aws/amazon-cloudwatch-agent/bin/amazon-cloudwatch-agent-config-wizard 
+```
+
+- Once you execute wizard, you need an
 
 1. OS 선택 : linux 를 골라줍니다.
 2. (실행환경이) EC2인지 On-premise(실물 서버) 인지? : EC2 선택
