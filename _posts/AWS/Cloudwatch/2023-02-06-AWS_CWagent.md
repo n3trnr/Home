@@ -60,12 +60,12 @@ https://s3.amazonaws.com/amazoncloudwatch-agent/amazon_linux/amd64/latest/amazon
 sudo /opt/aws/amazon-cloudwatch-agent/bin/amazon-cloudwatch-agent-config-wizard 
 ```
 
-- Once you execute wizard, you need an
+- Once you execute wizard, you need to answer the question to configure
 
-1. OS 선택 : linux 를 골라줍니다.
-2. (실행환경이) EC2인지 On-premise(실물 서버) 인지? : EC2 선택
-3. 실행user : others 한다음에 refine으로
-4. StatsD daemon : no (어플리케이션에서 사용자 지정 지표를 쉽게 기록할 수 있게 하는 프로토콜 - 자세한 설명은 AWS 공식 가이드에서 확인 가능)
+**1. Choose OS :** Linux / Windows / Other 
+2. Do you run this agent in EC2 or On-premise server? 
+3. Set the run user : root / cwagent / others
+4. StatsD daemon : yes / no (StatsD daemon is a protocol for 어플리케이션에서 사용자 지정 지표를 쉽게 기록할 수 있게 하는 프로토콜 - 자세한 설명은 AWS 공식 가이드에서 확인 가능)
 5. CollectD daemon : no (StatsD와 마찬가지)
 6. Cpu, Memory monitor : yes (CPU랑 메모리도 모니터링할건지 여부 (이 둘은 EC2 만들면 기본으로 AWS에서 수집해주기는 한다))
 7. Cpu core 별 기록 : no
