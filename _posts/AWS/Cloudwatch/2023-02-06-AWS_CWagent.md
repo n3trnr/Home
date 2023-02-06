@@ -66,33 +66,48 @@ sudo /opt/aws/amazon-cloudwatch-agent/bin/amazon-cloudwatch-agent-config-wizard
 
 **2. Do you run this agent in EC2 or On-premise server? :** EC2 / On-premise
 
-3. Set the run user : root / cwagent / others
-4. StatsD daemon : yes / no (StatsD daemon is a protocol to provides additional custom metrics to retreive more data)
-5. CollectD daemon : no (StatsD와 마찬가지)
-6. Cpu, Memory monitor : yes (CPU랑 메모리도 모니터링할건지 여부 (이 둘은 EC2 만들면 기본으로 AWS에서 수집해주기는 한다))
-7. Cpu core 별 기록 : no
-8. add ec2 dimensions : yes
-9. 지표기록 주기 : 60's(4번) (주기가 짧을 수록 더 높은 해상도의 지표가 기록 되지만 그만큼 더 많은 비용이 발생)
-10. default metrics : Standard
-11. 구성된 JSON을 보여준다. 문제가 없다면 yes (1번)로 진행
-12. 지금까지가 지표에 관한 설정이였다면 이제 로그에 대한 설정을 진행한다. 다음에 나오겠지만 한 번에 설정하도록 하겠다.
-13. 기존에 설정된 CloudWatch Logs 설정 파일이 있는가? : no
-14. 로그 파일 모니터링 : no
-15. SSM parameter store 설정 : no
-16. 끝으로 Program exits now. 라는 문구와 함께 종료.
-- Agent 실행
+**3. Set the run user :** root / cwagent / others
 
-```jsx
-**sudo /opt/aws/amazon-cloudwatch-agent/bin/amazon-cloudwatch-agent-ctl -a fetch-config -m ec2 -c file:/opt/aws/amazon-cloudwatch-agent/bin/config.json -s**
+**4. StatsD daemon :** yes / no (StatsD daemon is a protocol to provides additional custom metrics to retreive more data)
+
+**5. CollectD daemon :** no (StatsD와 마찬가지)
+
+**6. Cpu, Memory monitor :** yes (CPU랑 메모리도 모니터링할건지 여부 (이 둘은 EC2 만들면 기본으로 AWS에서 수집해주기는 한다))
+
+**7. Get the data per Cpu core :** yes / no
+
+**8. add ec2 dimensions :** yes
+
+**9. 지표기록 주기 :** 60's(4번) (주기가 짧을 수록 더 높은 해상도의 지표가 기록 되지만 그만큼 더 많은 비용이 발생)
+**10. default metrics :** Standard
+
+**11. JSON :** yes (1번)로 진행
+**12. 지금까지가 지표에** 관한 설정이였다면 이제 로그에 대한 설정을 진행한다. 다음에 나오겠지만 한 번에 설정하도록 하겠다.
+
+**13. 기존에 설정된 CloudWatch Logs 설정 파일이 있는가? :** no
+
+**14. 로그 파일 모니터링 :** no
+
+**15. SSM parameter store 설정 :** no
+
+**16. Program exits now.** 라는 문구와 함께 종료.
+
+
+- Execute Agent
+
+```
+sudo /opt/aws/amazon-cloudwatch-agent/bin/amazon-cloudwatch-agent-ctl -a fetch-config -m ec2 -c file:/opt/aws/amazon-cloudwatch-agent/bin/config.json -s
 ```
 
-- Agent 기동 확인
+- Checks status of agent
 
-```jsx
-**sudo /opt/aws/amazon-cloudwatch-agent/bin/amazon-cloudwatch-agent-ctl -m ec2 -a status**
+```
+sudo /opt/aws/amazon-cloudwatch-agent/bin/amazon-cloudwatch-agent-ctl -m ec2 -a status
 ```
 
-```jsx
+- If you see this value, your agent is successfully running
+  
+```
 {
 "status": "running",
 
@@ -100,14 +115,10 @@ sudo /opt/aws/amazon-cloudwatch-agent/bin/amazon-cloudwatch-agent-config-wizard
 }
 ```
 
-위와 같은 문구가 보이면 제대로 기동하고 있는 것입니다.
+- Check agent's running log
 
-- 저게 떴는데도 안된다 할 시
-
-로그 확인
-
-```jsx
-**tail -f /opt/aws/amazon-cloudwatch-agent/logs/amazon-cloudwatch-agent.log**
+```
+tail -f /opt/aws/amazon-cloudwatch-agent/logs/amazon-cloudwatch-agent.log
 ```
 
 - > CloudWatch Agent 로그 실시간으로 확인하는 명령어
