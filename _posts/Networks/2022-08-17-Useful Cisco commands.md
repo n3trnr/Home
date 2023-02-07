@@ -10,39 +10,39 @@ permalink: /Networks/useful_cisco_commands/
 
 # Useful Cisco commands
 
-### attempting SSH to another device in Cisco devices
+### 1. attempting SSH to another device in Cisco devices
 
 ```jsx
 ssh -l (ID) (IP)
 ```
 
-### Changing previlige password (enable password)
+### 2. Changing previlige password (enable password)
 
 ```jsx
 conf t
 enable secret (your password)
 ```
 
-### Changing SSH password
+### 3. Changing SSH password
 
 ```jsx
 conf t
 username (ID) secret (Password)
 ```
 
-### Checking device interface ports
+### 4. Checking device interface ports
 
 ```
 show interface status
 ```
 
-### Checking interface status per ports
+### 5. Checking interface status per ports
 
 ```
 show ip interface brief
 ```
 
-### show routing tables in L3 Switches or Router devices
+### 6. show routing tables in L3 Switches or Router devices
 
 ```
 sh run | i route
@@ -54,13 +54,13 @@ or just simply
 show ip route
 ```
 
-### Finding physical port number by MAC address
+### 7. Finding physical port number by MAC address
 
 ```
 show mac address-table | i <Mac Address>
 ```
 
-### Finding your neighbor network devices
+### 8. Finding your neighbor network devices
 
 ```
 show cdp neighbor

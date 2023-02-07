@@ -62,17 +62,18 @@ sudo /opt/aws/amazon-cloudwatch-agent/bin/amazon-cloudwatch-agent-config-wizard
 
 - Once you execute wizard, you need to answer the question to configure
 
-**1. Choose OS :** Linux / Windows / Other 
+**1. On which OS are you planning to use the agent? :** you can choose between Linux and Windows
 
-**2. Do you run this agent in EC2 or On-premise server? :** EC2 / On-premise
+**2. Are you using EC2 or On-Premises hosts? :** Are you gonna install this agent in AWS EC2 or On-Presmises physical server?
 
-**3. Set the run user :** root / cwagent / others
+**3. Which user are you planning to run the agent? :** In this step, you can choose which user will gather the data for metric
 
 **4. StatsD daemon :** yes / no (StatsD daemon is a protocol to provides additional custom metrics to retreive more data)
+**4. Do you want to turn on StatsD daemon? :** yes / no (StatsD daemon is a protocol to provides additional custom metrics to retreive more data)
 
-**5. CollectD daemon :** no (StatsD와 마찬가지)
+**5. Do you want to monitor metrics from CollectD :** no (StatsD와 마찬가지)
 
-**6. Cpu, Memory monitor :** yes (CPU랑 메모리도 모니터링할건지 여부 (이 둘은 EC2 만들면 기본으로 AWS에서 수집해주기는 한다))
+**6. Do you want to monitor any host metrics? e.g. CPU, memory, etc** yes (CPU랑 메모리도 모니터링할건지 여부 (이 둘은 EC2 만들면 기본으로 AWS에서 수집해주기는 한다))
 
 **7. Get the data per Cpu core :** yes / no
 

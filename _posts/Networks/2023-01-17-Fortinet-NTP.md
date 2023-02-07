@@ -16,7 +16,7 @@ In Fortigate devices, you can configure NTP server address by GUI interface
 
 …..aaand yeah its better to configure your custom NTP server by CLI interface
 
-### ※ Before you begin this procedure make sure to check if you have permission to enter Fortigate CLI console
+## **※ Before you begin this procedure make sure to check if you have permission to enter Fortigate CLI console**
 
 - You can check NTP server status of your Fortigate system before you begin like this
     
