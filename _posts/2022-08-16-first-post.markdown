@@ -85,7 +85,7 @@ I'm always interested to experiance new skills, knowledges and of course traveli
 - Troubleshooting when line is down
 - Configure VPN or private line connections between companies
 
-#### Security devices
+### **Security devices**
 
 - Managed Fortigate 80E, 100E
 - Managing VPN connections between AWS VPC and company intranet
