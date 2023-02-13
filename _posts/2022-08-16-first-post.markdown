@@ -20,27 +20,26 @@ Currently living in Seoul, Republic of Korea (aka South Korea)
 
 But soon I will move to Ontario, Canada.
 
-after graduated Myongji College, currently working as IT Infrastructure Assistant Manager since April 2019.
+I'm always interested to experiance new skills, knowledges and of course traveling
 
-
-<br><br>
+<br>
 
 ## **Work Experiances**
 
 ---
 <br>
 
-### - 2014.05 ~ 2016.02
+### **- Republic of Korean Army**
 
-- Republic of Korean Army
+- 2014.05 ~ 2016.02
 - Served as Signal operator in 7th corps
 - Managed tactical communicator system (ex PBX servers, wired radioes)
 
 <br>
 
-### - 2019.04 ~ Ongoing
+### **- Refine co.**
 
-- Refine co.
+- 2019.04 ~ Ongoing
 - IT Infrastructure Assistant Manager
 - Managing IT assets (Servers, Networks, Security devices) and operate
  Cloud platform such as Amazon Web Services
@@ -48,7 +47,18 @@ after graduated Myongji College, currently working as IT Infrastructure Assistan
 
 <br><br>
 
-## **Things what I can do**
+## **Education**
+
+---
+<br>
+
+### **Myongji College** 
+- 2013.03 ~ 2019.02
+- Bachelor's degree in Computer Science
+
+<br>
+
+## **My Skills**
 
 ---
 
