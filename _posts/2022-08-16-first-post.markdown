@@ -30,7 +30,7 @@ after graduated Myongji College, currently working as IT Infrastructure Assistan
 ---
 
 <details>
-<summeary> </summary>
+<summary> </summary>
 <br>
 
 ### - 2014.05 ~ 2016.02
@@ -57,6 +57,7 @@ after graduated Myongji College, currently working as IT Infrastructure Assistan
 
 ---
 <details>
+
 ### **AWS**
 
 - Virtual Private Cloud
