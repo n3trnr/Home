@@ -8,9 +8,6 @@ permalink: /Who_am_I
 ---
 <Br>
 
-## **Hello World! It's Minsoo!**
-
----
 
 Hi, my name is Minsoo Ju
 
