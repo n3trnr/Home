@@ -28,9 +28,6 @@ after graduated Myongji College, currently working as IT Infrastructure Assistan
 ## **Work Experiances**
 
 ---
-
-<details>
-<summary> Look More! </summary>
 <br>
 
 ### - 2014.05 ~ 2016.02
@@ -49,15 +46,12 @@ after graduated Myongji College, currently working as IT Infrastructure Assistan
  Cloud platform such as Amazon Web Services
 
 
-</details>
-
 <br><br>
 
 ## **Things what I can do**
 
 ---
-<details>
-<summary> Look More! </summary>
+
 ### **AWS**
 
 - Virtual Private Cloud
@@ -90,5 +84,3 @@ after graduated Myongji College, currently working as IT Infrastructure Assistan
 - Managing VPN connections between AWS VPC and company intranet
 - Managing security policies in Fortigate devices
 - Set static routes and manage them
-
-</details>
