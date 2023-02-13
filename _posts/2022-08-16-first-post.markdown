@@ -25,12 +25,12 @@ after graduated Myongji College, currently working as IT Infrastructure Assistan
 
 <br><br>
 
-## **My Career Experiances**
+## **Work Experiances**
 
 ---
 
 <details>
-<summary> </summary>
+<summary> Look More! </summary>
 <br>
 
 ### - 2014.05 ~ 2016.02
@@ -41,7 +41,7 @@ after graduated Myongji College, currently working as IT Infrastructure Assistan
 
 <br>
 
-### - 2019.04 ~ Present day
+### - 2019.04 ~ Ongoing
 
 - Refine co.
 - IT Infrastructure Assistant Manager
@@ -57,7 +57,7 @@ after graduated Myongji College, currently working as IT Infrastructure Assistan
 
 ---
 <details>
-
+<summary> Look More! </summary>
 ### **AWS**
 
 - Virtual Private Cloud
