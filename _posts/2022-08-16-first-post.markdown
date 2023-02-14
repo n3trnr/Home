@@ -32,8 +32,6 @@ I'm always interested in new skills, knowledges and most of all, new experiance
 - Served as Signal operator in 7th corps
 - Managed tactical communicator system (ex PBX call system servers, wired radioes)
 - Regualr training with US army 
-  
-<br>
 
 ### **Refine co.**
 
@@ -51,12 +49,10 @@ I'm always interested in new skills, knowledges and most of all, new experiance
 - 2013.03 ~ 2019.02
 - Bachelor's degree in Computer Science
 
-<br>
 
 ### **Fast Lane Korea**
 - 2022.07 ~ 2022.08
 - Finished Implementing and Administering Cisco Solutions (CCNA) course 
-
 <br>
 
 ## **My Skills**
