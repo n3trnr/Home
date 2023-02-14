@@ -8,16 +8,17 @@ permalink: /Who_am_I
 ---
 <Br>
 
-
+## **About me**
+--- 
 Hi, my name is Minsoo Ju
 
 Born in Dec 7th 1994
 
 Currently living in Seoul, Republic of Korea (aka South Korea)
 
-But soon I will move to Ontario, Canada.
+Also have accomodation in Coquitlam, BC, Canada
 
-I'm always interested to experiance new skills, knowledges and of course traveling
+I'm always interested in new skills, knowledges and most of all, new experiance
 
 <br>
 
@@ -26,15 +27,17 @@ I'm always interested to experiance new skills, knowledges and of course traveli
 ---
 <br>
 
-### **- Republic of Korean Army**
+### **Republic of Korean Army**
 
 - 2014.05 ~ 2016.02
 - Served as Signal operator in 7th corps
-- Managed tactical communicator system (ex PBX servers, wired radioes)
+- Managed tactical communicator system (ex PBX call system servers, wired radioes)
+- Regualr training with US army 
+  
 
 <br>
 
-### **- Refine co.**
+### **Refine co.**
 
 - 2019.04 ~ Ongoing
 - IT Infrastructure Assistant Manager
@@ -55,11 +58,25 @@ I'm always interested to experiance new skills, knowledges and of course traveli
 
 <br>
 
+### **Fast Lane Korea**
+- 2022.07 ~ 2022.08
+- Finished Implementing and Administering Cisco Solutions (CCNA) course 
+
+<br>
+
 ## **My Skills**
 
 ---
+<br>
 
-### **AWS**
+### **Communications** ###
+
+- Native Korean speaker
+- Fluent in English 
+  
+<br>
+
+### **Amazon Web Services - Cloud Computing**
 
 - Virtual Private Cloud
 - Elactic Cloud Computing (EC2)
@@ -72,8 +89,10 @@ I'm always interested to experiance new skills, knowledges and of course traveli
 
 ### **Server Management**
 
-- On-premise Linux & Windows servers
-- Cloud Computing Servers on AWS (usually Amazon Linux and Windows Server 2016, 2019)
+- Managing & Operating On-premise servers
+- Amazon Linux, CentOS 7~8, Ubuntu 20.02
+- Windows Server 2012 R2, 2016 and 2019
+- Citrix Xen server management
 - PBX VoIP call server management
 - Collects logs and make alert for each servers
 - Troubleshooting when error shows out
@@ -82,7 +101,7 @@ I'm always interested to experiance new skills, knowledges and of course traveli
 
 - Setting Cisco Router, L2 ~ L3 Switches
 - Make or edit routing tables in Cisco routers and L3 switches
-- Troubleshooting when line is down
+- Troubleshooting for unexpected network error 
 - Configure VPN or private line connections between companies
 
 ### **Security devices**
