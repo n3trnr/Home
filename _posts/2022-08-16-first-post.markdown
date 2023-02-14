@@ -16,7 +16,7 @@ Born in Dec 7th 1994
 
 Currently living in Seoul, Republic of Korea (aka South Korea)
 
-Also have accomodation in Coquitlam, BC, Canada
+Also have temporary accomodation in Coquitlam, BC, Canada
 
 I'm always interested in new skills, knowledges and most of all, new experiance
 
@@ -25,7 +25,6 @@ I'm always interested in new skills, knowledges and most of all, new experiance
 ## **Work Experiances**
 
 ---
-<br>
 
 ### **Republic of Korean Army**
 
@@ -34,7 +33,6 @@ I'm always interested in new skills, knowledges and most of all, new experiance
 - Managed tactical communicator system (ex PBX call system servers, wired radioes)
 - Regualr training with US army 
   
-
 <br>
 
 ### **Refine co.**
@@ -44,14 +42,11 @@ I'm always interested in new skills, knowledges and most of all, new experiance
 - Managing IT assets (Servers, Networks, Security devices) and operate
  Cloud platform such as Amazon Web Services
 
-
-<br><br>
+<br>
 
 ## **Education**
 
 ---
-<br>
-
 ### **Myongji College** 
 - 2013.03 ~ 2019.02
 - Bachelor's degree in Computer Science
@@ -65,16 +60,12 @@ I'm always interested in new skills, knowledges and most of all, new experiance
 <br>
 
 ## **My Skills**
-
 ---
-<br>
 
 ### **Communications** ###
 
 - Native Korean speaker
 - Fluent in English 
-  
-<br>
 
 ### **Amazon Web Services - Cloud Computing**
 
