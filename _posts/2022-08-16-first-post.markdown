@@ -86,10 +86,10 @@ I'm always interested in new skills, gaining more knowledges and most of all, ch
 
 ### **Network devices**
 
-- Setting Cisco Router, L2 ~ L3 Switches
-- Make or edit routing tables in Cisco routers and L3 switches
-- Troubleshooting for unexpected network error 
-- Configure VPN or private line connections between companies
+- Setting Cisco Router, Layer 2 and 3 Switches
+- Architect & manage external network 
+- Managing internal TCP/IP routing tables
+- Troubleshooting for unexpected network errors 
 
 ### **Security devices**
 
