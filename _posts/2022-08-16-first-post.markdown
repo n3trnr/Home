@@ -29,9 +29,9 @@ I'm always interested in new skills, gaining more knowledges and most of all, ch
 ### **Republic of Korean Army**
 
 - 2014.05 ~ 2016.02
-- Served as a Signal operator in 7th corps
+- Served as a signal operator in 7th corps
 - Managed tactical communicator system (ex PBX call system servers, wired radioes)
-- Regular training with US army 
+- Regular training with US army
 
 ### **Refine co.**
 
