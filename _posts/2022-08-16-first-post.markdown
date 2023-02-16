@@ -12,13 +12,13 @@ permalink: /Who_am_I
 --- 
 Hi, my name is Minsoo Ju
 
-Born in Dec 7th 1994
+Born on Dec 7th 1994
 
 Currently living in Seoul, Republic of Korea (aka South Korea)
 
 Also have temporary accomodation in Coquitlam, BC, Canada
 
-I'm always interested in new skills, knowledges and most of all, new experiance
+I'm always interested in new skills, gaining more knowledges and most of all, chasing new experiances
 
 <br>
 
@@ -29,9 +29,9 @@ I'm always interested in new skills, knowledges and most of all, new experiance
 ### **Republic of Korean Army**
 
 - 2014.05 ~ 2016.02
-- Served as Signal operator in 7th corps
+- Served as a Signal operator in 7th corps
 - Managed tactical communicator system (ex PBX call system servers, wired radioes)
-- Regualr training with US army 
+- Regular training with US army 
 
 ### **Refine co.**
 
@@ -61,7 +61,7 @@ I'm always interested in new skills, knowledges and most of all, new experiance
 ### **Communications** ###
 
 - Native Korean speaker
-- Fluent in English 
+- Fluent in written & spoken English 
 
 ### **Amazon Web Services - Cloud Computing**
 
