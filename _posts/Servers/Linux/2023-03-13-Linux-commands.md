@@ -73,11 +73,26 @@ tail -f [filename]
 
 - Gets current datetime
 - You can choose specific format to show date
+- You can get previous, post date with -d (—date) option
 
 ```bash
 # Get today's date in YYYY-MM-DD format
 date "+%Y-%m-%d"
 
 # Get the yesterday's date in YYYY-MM-DD format
-date -d '1 days ago' "+%Y-%m-%d"
+date -d '1 day ago' "+%Y-%m-%d"
+# or else
+date -d 'yesterday' "+%Y-%m-%d"
+ 
+# Get the date of 2 months ago in YYYY-MM-DD format
+date -d '2 months ago' "+%Y-%m-%d"
+
+# Get the date of last Sunday in YYYY-MM-DD format
+date -d 'last sunday' "+%Y-%m-%d"
+
+# Get the tomorrow's date in YYYY-MM-DD format
+date -d 'tomorrow' "+%Y-%m-%d"
+
+# Get the date after 3 years later in YYYY-MM-DD format
+date -d '3 years' "+%Y-%m-%d"
 ```
