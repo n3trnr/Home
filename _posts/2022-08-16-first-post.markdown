@@ -30,16 +30,20 @@ I'm always interested in new skills, gaining more knowledges and most of all, ch
 
 - 2014.05 ~ 2016.02
 - Served as a signal operator in 7th corps
-- Managed tactical communicator system (ex PBX call system servers, wired radioes)
+- Managed tactical communication system (ex PBX call system servers, wired combat radioes)
+- Data center management
 - Regular training with US army
-
 ### **Refine co.**
 
 - 2019.04 ~ Ongoing
 - IT Infrastructure Assistant Manager
-- Managing IT assets (Servers, Networks, Security devices) and operate
- Cloud platform such as Amazon Web Services
-
+- Operating Cloud platform and its resources (AWS, GCP)
+- Operating on-premises server (CentOS, Ubuntu Linux, Windows Server)
+- Managing VMware & Xen server system 
+- IT Security assistant (Firewall, VPN, Network Policy)
+- Network administration (Configure & Manage L2, L3, Router)
+- VoIP Call system management (PBX server, CTI)
+- End-user support (Windows 10, Telephone)
 <br>
 
 ## **Education**

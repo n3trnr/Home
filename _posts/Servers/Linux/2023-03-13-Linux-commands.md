@@ -6,7 +6,7 @@ categories: Linux
 tags: Linux
 permalink: /Servers/Linux/commands
 ---
-## ls
+## **ls**
 
 list file & directory
 
@@ -39,7 +39,7 @@ ls -l : Shows verbose informations (Date, Permissions etc)
     ```
     
 
-## head
+## **head**
 
 - head command shows the first 10 line of the file
 - Can be used with cat command
@@ -55,7 +55,7 @@ head -n*[line number]* [filename]
 cat [filename] | head -n******[line numbers]******
 ```
 
-## tail
+## **tail**
 
 - just like head command, tail shows 10 lines of the file but in opposite way
 - It shows the last 10 lines of the file
@@ -67,4 +67,17 @@ tail [filename]
 
 # Keep tracking the file which one is keep written 
 tail -f [filename]
+```
+
+## **date**
+
+- Gets current datetime
+- You can choose specific format to show date
+
+```bash
+# Get today's date in YYYY-MM-DD format
+date "+%Y-%m-%d"
+
+# Get the yesterday's date in YYYY-MM-DD format
+date -d '1 days ago' "+%Y-%m-%d"
 ```
