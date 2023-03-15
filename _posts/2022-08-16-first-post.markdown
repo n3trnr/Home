@@ -33,6 +33,8 @@ I'm always interested in new skills, gaining more knowledges and most of all, ch
 - Managed tactical communication system (ex PBX call system servers, wired combat radioes)
 - Data center management
 - Regular training with US army
+<br> 
+
 ### **Refine co.**
 
 - 2019.04 ~ Ongoing
@@ -44,7 +46,7 @@ I'm always interested in new skills, gaining more knowledges and most of all, ch
 - Network administration (Configure & Manage L2, L3, Router)
 - VoIP Call system management (PBX server, CTI)
 - End-user support (Windows 10, Telephone)
-<br>
+<br><br>
 
 ## **Education**
 
@@ -57,8 +59,7 @@ I'm always interested in new skills, gaining more knowledges and most of all, ch
 ### **Fast Lane Korea**
 - 2022.07 ~ 2022.08
 - Finished Implementing and Administering Cisco Solutions (CCNA) course 
-<br>
-
+<br><br>
 ## **My Skills**
 ---
 
