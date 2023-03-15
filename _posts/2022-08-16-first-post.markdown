@@ -59,7 +59,8 @@ I'm always interested in new skills, gaining more knowledges and most of all, ch
 ### **Fast Lane Korea**
 - 2022.07 ~ 2022.08
 - Finished Implementing and Administering Cisco Solutions (CCNA) course 
-<br><br>
+<br><br>.
+
 ## **My Skills**
 ---
 
