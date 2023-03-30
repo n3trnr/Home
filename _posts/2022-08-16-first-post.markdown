@@ -27,11 +27,11 @@ I'm always interested in new skills, gaining more knowledges and most of all, ch
 ---
 
 ### **Republic of Korean Army**
-
+   
 - 2014.05 ~ 2016.02
 - Served as a signal operator in 7th corps
-- Managed tactical communication system (ex PBX call system servers, wired combat radioes)
-- Data center management
+- Managed tactical communication system (ex PBX call system servers, wired combat radioes) and data centre
+- Experiance as squad leader
 - Regular training with US army
 <br> 
 
@@ -64,11 +64,12 @@ I'm always interested in new skills, gaining more knowledges and most of all, ch
 ## **My Skills**
 ---
 
-### **Communications** ###
+### **Key skills** ###
 
 - Native Korean speaker
 - Fluent in written & spoken English 
-
+- Great communicator with coworkers and clients
+- Team-worker & Sociable person
 ### **Amazon Web Services - Cloud Computing**
 
 - Virtual Private Cloud
