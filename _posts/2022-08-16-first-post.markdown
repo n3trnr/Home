@@ -18,11 +18,11 @@ Currently living in Seoul, Republic of Korea (aka South Korea)
 
 Also have temporary accomodation in Coquitlam, BC, Canada
 
-I'm always interested in new skills, gaining more knowledges and most of all, chasing new experiances
+I'm always interested in new skills, gaining more knowledges and most of all, chasing new experiences
 
 <br>
 
-## **Work Experiances**
+## **Work Experiences**
 
 ---
 
@@ -31,7 +31,7 @@ I'm always interested in new skills, gaining more knowledges and most of all, ch
 - 2014.05 ~ 2016.02
 - Served as a signal operator in 7th corps
 - Managed tactical communication system (ex PBX call system servers, wired combat radioes) and data centre
-- Experiance as squad leader
+- experience as squad leader
 - Regular training with US army
 <br> 
 
