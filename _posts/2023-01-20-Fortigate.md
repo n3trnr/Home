@@ -11,6 +11,8 @@ permalink: /Networks/Fortigate
 
 ---
 
+[Fortigate CLI](/Networks/Fortigate/Fortigate_CLI)
+
 [How to set NTP server in Fortigate Firewall](/Networks/Fortigate/Fortigate_NTP)
 
 [Configuring SYSLOG server in Fortigate Firewall](/Networks/Fortigate/Fortigate_syslog)
