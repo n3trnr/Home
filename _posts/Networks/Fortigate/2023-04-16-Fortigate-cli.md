@@ -23,11 +23,11 @@ This is how you get into CLI terminal after you log in Fortigate Firewall in GUI
 
 For example, If you want to see packets that flows into 10.1.4.43, it shows like this.
 
-**syn** : Calling 
+**syn** : Calling packets
 
-**ack** : 해당 IP 측에서 받음
+**ack** : Received and acknowleged
 
-**fin** : 통신 완료되어 종료
+**fin** : Successfully finished network connections
 
 다음과 같이 구분하시면 됩니다.
 
