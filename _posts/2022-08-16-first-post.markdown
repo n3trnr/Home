@@ -18,7 +18,10 @@ Currently living in Seoul, Republic of Korea (aka South Korea)
 
 Also have temporary accomodation in Coquitlam, BC, Canada
 
+Besides I have legit work permit in Canada for 1 year (IEC Program)
+
 I'm always interested in new skills, gaining more knowledges and most of all, chasing new experiences
+
 
 <br>
 
