@@ -15,6 +15,7 @@ This is how you get into CLI terminal after you log in Fortigate Firewall in GUI
 
 ## Some useful Fortigate CLI commands
 
+
 ### diagnose sniffer packet any 'host (IP address)'
 
 → Shows packet connections via specific IP address
@@ -23,44 +24,54 @@ This is how you get into CLI terminal after you log in Fortigate Firewall in GUI
 
 For example, If you want to see packets that flows into 10.1.4.43, it shows like this.
 
-**syn** : Calling packets
+**syn** : Calling packets.
 
-**ack** : Received and acknowleged
+**ack** : Packets has been received and acknowleged.
 
-**fin** : Successfully finished network connections
+**fin** : Successfully finished network connections.
 
-다음과 같이 구분하시면 됩니다.
-
-```
-# 해당 IP주소와 특정 포트를 함께 조회 하는 식으로도 가능합니다.
-diagnose sniffer packet any 'host IP_ADDRESS and port 443'
-
-# 또는 and 조건이 아닌 or 조건으로도 사용 가능
-diagnose sniffer packet any 'host IP_ADDRESS or port 443'
 
 ```
+# You can also search specify IP and port at the same time.
+diagnose sniffer packet any 'host [IP_ADDRESS] and port 443'
 
-## execute 명령어
-
-→ 일반적인 PING 이나 TELNET 명령어의 경우 앞에 execute 명령어를 사용해야합니다.
-
-### execute ping (IP 주소)
-
-→ 해당 IP 주소로 PING을 날립니다.
-
-### execute telnet (IP 주소) (포트)
-
-→ 해당 IP 주소로 텔넷 통신을 시도합니다. 포트도 지정 가능합니다.
+# You can use with AND & OR commands
+diagnose sniffer packet any 'host [IP_ADDRESS] or port 443'
 
 ```
-# vdom 사용 환경에서 vdom 전환
+
+## execute
+
+→ execute command is usually execute PING, SSH, TELNET, Traceroute commands
+
+### execute ping (IP address)
+
+→ Send ICMP PING to specific IP address
+
+### execute telnet (IP address) (port)
+
+→ Execute Telnet connection to specific IP address. You can also defines port too.
+
+### execute ssh (IP address) (port)
+
+→ Execute SSH connection to specific IP address. Just as telnet command, you can define port too
+
+### execute traceroute (IP address)
+
+→ Execute traceroute to specific IP address to track down how to reach.
+
+
+```
+# Using execute command in VDOM environment
 
 refine # config vdom
 refine (vdom) # edit root
 current vf=root:0
 
-# 특별하게 vdom을 사용하는 환경의 Fortigate라면 vdom을 전환해야 명령어를 사용 할 수 있다.
-# 하지만 vdom 전환하지 않고 execute나 diagnose 명령어를 사용하고자 한다면 아래와 같이 sudo 명령어를 사용하면 된다.
+# If you use VDOM mode in Fortigate FW, you must change into legit vdom account which has permit to use execute command.
+
+# However, you can use Sudo command to override changing into other account
+
 # ex) sudo root COMMAND
 
 refine # sudo root execute  ping 8.8.8.8
@@ -73,17 +84,17 @@ PING 8.8.8.8 (8.8.8.8): 56 data bytes
 
 ```
 
-## Show 명령어
+## Show
 
 ### show firewall
 
-→  방화벽 관련 정보를 보여줌
+→  Shows information about this firewall device
 
-(? 를 이용해서 뒤에 어떤 명령어가 사용될 수 있는지 조회 가능)
+(Use ? to check following commands)
 
 ### show firewall policy
 
-→ 정책 조회
+→ Shows policy status in this firewall device
 
 ```
 SK_IDC_Phone_1 $ show firewall policy
@@ -116,7 +127,7 @@ end
 
 ### show router static
 
-→ 정적 라우팅 조회
+→ Shows routing table policy.
 
 ```
 bash
@@ -135,13 +146,11 @@ end
 
 ```
 
-## get 명령어
-
-- 주로 현재 설정된 정보를 읽고자 할 때 사용되는 명령어입니다.
+## get
 
 ### get system status
 
-- > OS 버전 확인
+- > Check the OS version.
 
 ```
 SK_IDC_Phone_1 $ get system status
@@ -156,7 +165,7 @@ APP-DB: 6.00741(2015-12-01 02:30)
 
 ### get system ha status
 
-- > HA 구성 확인
+- > Check HA status in this firewall
 
 ```
 SK_IDC_Phone_1 $ get system ha status
@@ -177,7 +186,7 @@ override: disable
 
 ### get system arp
 
-- > ARP 조회
+- > check ARP addresses in this firewall
 
 ```
 
@@ -191,11 +200,13 @@ Address           Age(min)   Hardware Addr      Interface
 
 ```
 
-## Config 명령어
+## Config 
+
+- This commands can actually affects to firewall environment. So you must use it carefully.
 
 ### config firewall address
 
-- Address 에 새로운 주소 추가
+- Adds new IP address in [Address]
 
 ```bash
 config firewall address
@@ -207,7 +218,7 @@ end
 
 ### config router static
 
-- 정적 라우팅 생성
+- Create new or configures existing routing table policy
 
 ```bash
 config router static
@@ -222,7 +233,7 @@ end
 
 ### config firewall policy
 
-- IPv4 정책 생성
+- Create new or configures existing firewall policy
 
 ```bash
 config firewall policy
