@@ -71,27 +71,27 @@ sudo /opt/aws/amazon-cloudwatch-agent/bin/amazon-cloudwatch-agent-config-wizard
 **4. StatsD daemon :** yes / no (StatsD daemon is a protocol to provides additional custom metrics to retreive more data)
 **4. Do you want to turn on StatsD daemon? :** yes / no (StatsD daemon is a protocol to provides additional custom metrics to retreive more data)
 
-**5. Do you want to monitor metrics from CollectD :** no (StatsD와 마찬가지)
+**5. Do you want to monitor metrics from CollectD :** no (CollectD is and user defined metrics. Yet we dont need this for now)
 
-**6. Do you want to monitor any host metrics? e.g. CPU, memory, etc** yes (CPU랑 메모리도 모니터링할건지 여부 (이 둘은 EC2 만들면 기본으로 AWS에서 수집해주기는 한다))
+**6. Do you want to monitor any host metrics? e.g. CPU, memory, etc** yes (Actually CPU utilization metrics are collected without using CWAgent)
 
-**7. Get the data per Cpu core :** yes / no
+**7. Do you want to monitor cpu metrics per core? Additional CloudWatch charges may apply. :** (Default : Yes)
 
-**8. add ec2 dimensions :** yes
+**8. Do you want to add ec2 dimensions (ImageId, InstanceId, InstanceType, AutoScalingGroupName) :** yes
 
-**9. 지표기록 주기 :** 60's(4번) (주기가 짧을 수록 더 높은 해상도의 지표가 기록 되지만 그만큼 더 많은 비용이 발생)
-**10. default metrics :** Standard
+**9. Would you like to collect your metrics at high resolution? This enables sub-minute resolution for all metrics, but you can customize for specific metrics in the output json file :** (Default : 60s)
 
-**11. JSON :** yes (1번)로 진행
-**12. 지금까지가 지표에** 관한 설정이였다면 이제 로그에 대한 설정을 진행한다. 다음에 나오겠지만 한 번에 설정하도록 하겠다.
+**10. Which default metrics config do you want? :** Standard
 
-**13. 기존에 설정된 CloudWatch Logs 설정 파일이 있는가? :** no
+**Are you satisfied with the above config? Note: it can be manually customized after the wizard** -> Shows your configuration by JSON form.
 
-**14. 로그 파일 모니터링 :** no
+**11. Do you want to monitor any customized log files? :** no
 
-**15. SSM parameter store 설정 :** no
+**14. Do you want to monitor log files? :** no
 
-**16. Program exits now.** 라는 문구와 함께 종료.
+**15. Do you want to store the config in the SSM parameter store? :** no
+
+**16. Program exits now.**
 
 
 - Execute Agent
@@ -121,64 +121,4 @@ sudo /opt/aws/amazon-cloudwatch-agent/bin/amazon-cloudwatch-agent-ctl -m ec2 -a 
 ```
 tail -f /opt/aws/amazon-cloudwatch-agent/logs/amazon-cloudwatch-agent.log
 ```
-
-- > CloudWatch Agent 로그 실시간으로 확인하는 명령어
-- CloudWatch Agent는 서비스로 자동으로 등록되어 종료되기 이전에 성공적으로 실행됐다면 시스템이 시작될 때 자동으로 실행 됩니다.
-
-1-2. 기록된 지표 확인
-
-1. CloudWatch 서비스 이동 -> 지표 -> CWAgent라는 이름의 네임스페이스가 사용자 지정 네임스페이스에 추가돼 있음을 확인.
-
-![46b2e48a1366a89fd6a87454cb592ea6038fb2ac0e96bd08eadf43a49c6d4ae8.jpg](AWS%20CWagent%20%E1%84%89%E1%85%A5%E1%86%AF%E1%84%8E%E1%85%B5%20e31d937056c64e8b85d2574120c758af/46b2e48a1366a89fd6a87454cb592ea6038fb2ac0e96bd08eadf43a49c6d4ae8.jpg)
-
-1. CWAgent 클릭 -> [Imageld, InstanceId, InstanceType] 클릭
-
-![6ca961444aca6861e8c92a3250ac4022fad1ff708bb3e2ab0d0177acaeaeb73a.jpg](AWS%20CWagent%20%E1%84%89%E1%85%A5%E1%86%AF%E1%84%8E%E1%85%B5%20e31d937056c64e8b85d2574120c758af/6ca961444aca6861e8c92a3250ac4022fad1ff708bb3e2ab0d0177acaeaeb73a.jpg)
-
-1. 참고 2-1. CloudWatch Agent의 미리 정의된 지표 목록 Basic 메모리 사용량(used_percent)
-
-Swap 사용량(used_percent)
-
-Standard Basic의 내용
-
-CPU 사용량(usage_idle, usage_iowait, usage_user, usage_system)
-
-Disk 사용량(used_persent, inodes_free, io_time)
-
-Advanced Standard의 내용
-
-Diskio(write_bytes, read_bytes, writes, reads)
-
-Netstat(tcp_established, tcp_time_wait)
-
-2-2. CloudWatch Agent의 명령어와 주요 파일 위치 -. 특정 설정 파일을 사용해 CloudWatch Agent 서비스를 시작
-
-```jsx
-sudo /opt/aws/amazon-cloudwatch-agent/bin/amazon-cloudwatch-agent-ctl -a fetch-config -m ec2 -c file:[설정파일] -s 예시로 사용한 설정파일은 /opt/aws/amazon-cloudwatch-agent/bin/config.json 임을 알 수 있다.
-```
-
-```jsx
-sudo /opt/aws/amazon-cloudwatch-agent/bin/amazon-cloudwatch-agent-ctl -m ec2 -a start -> CloudWatch Agent 서비스 시작
-```
-
-```jsx
-sudo /opt/aws/amazon-cloudwatch-agent/bin/amazon-cloudwatch-agent-ctl -m ec2 -a stop -> CloudWatch Agent 서비스 중지
-```
-
-```jsx
-sudo /opt/aws/amazon-cloudwatch-agent/bin/amazon-cloudwatch-agent-ctl -m ec2 -a status -> CloudWatch Agent 서비스 상태 조회
-```
-
-- CloudWatch Agent 설정 파일의 위치
-
-Wizard로 생성한 파일 위치 
-
-```jsx
-/opt/aws/amazon-cloudwatch-agent/bin/config.json
-```
-
-실제로 CloudWatch Agent가 사용하는 설정 파일 위치
-
-```jsx
-/opt/aws/amazon-cloudwatch-agent/etc/amazon-cloudwatch-agent.json
-```
+- > Command to see Cloudwatch agent log with real time. You can check if it runs without problems.
