@@ -8,3 +8,5 @@ permalink: /AWS/Cloudwatch
 ---
 
 [Install & configure CWagent in EC2 instance](/AWS/CloudWatch/Install_&_Configure_CWAgent)
+
+[Create new Cloudwatch alarm](/AWS/CloudWatch/Create_new_cloudwatch_alarm)
