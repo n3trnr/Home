@@ -121,4 +121,4 @@ sudo /opt/aws/amazon-cloudwatch-agent/bin/amazon-cloudwatch-agent-ctl -m ec2 -a 
 ```
 tail -f /opt/aws/amazon-cloudwatch-agent/logs/amazon-cloudwatch-agent.log
 ```
-- > Command to see Cloudwatch agent log with real time. You can check if it runs without problems.
+- Command to see Cloudwatch agent log with real time. You can check if it runs without problems.
