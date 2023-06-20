@@ -16,7 +16,7 @@ Born on Dec 7th 1994
 
 Currently living in Seoul, Republic of Korea (aka South Korea)
 
-Also have temporary accomodation in Coquitlam, BC, Canada
+Yet I have accomodation in North York, Ontario, Canada.
 
 Besides I have legit work permit in Canada for 1 year (IEC Program)
 
@@ -40,7 +40,7 @@ I'm always interested in new skills, gaining more knowledges and most of all, ch
 
 ### **Refine co.**
 
-- 2019.04 ~ Ongoing
+- 2019.04 ~ 2023.05
 - IT Infrastructure Assistant Manager
 - Operating Cloud platform and its resources (AWS, GCP)
 - Operating on-premises server (CentOS, Ubuntu Linux, Windows Server)
