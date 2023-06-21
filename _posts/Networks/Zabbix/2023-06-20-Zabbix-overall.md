@@ -25,7 +25,7 @@ You can install Zabbix agent at UNIX, Linux and Windows OS system to monitor suc
 - server
     
     ```jsx
-    10050 inbound source 10.19.0.0
+    10050 inbound source [SOURCE IP]
     ```
     
 - client
@@ -37,5 +37,7 @@ You can install Zabbix agent at UNIX, Linux and Windows OS system to monitor suc
 - Commands that detecting UserParameter from Zabbix server.
     
     ```php
-    zabbix_get -s 10.19.1.105 -p 10050 -k "vfs.fs.size[E:,used]"
+    zabbix_get -s [SOURCE IP] -p 10050 -k "vfs.fs.size[E:,used]"
     ```
+
+[Configuring SNMP for Cisco network devices and create new host at Zabbix server](/Networks/Zabbix/Zabbix-overall/Zabbix-cisco)
