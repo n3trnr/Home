@@ -40,4 +40,4 @@ You can install Zabbix agent at UNIX, Linux and Windows OS system to monitor suc
     zabbix_get -s [SOURCE IP] -p 10050 -k "vfs.fs.size[E:,used]"
     ```
 
-[Configuring SNMP for Cisco network devices and create new host at Zabbix server](/Networks/Zabbix/Zabbix-overall/Zabbix-cisco)
+[SNMP](/Networks/Zabbix/Zabbix-overall/Zabbix-SNMP)
