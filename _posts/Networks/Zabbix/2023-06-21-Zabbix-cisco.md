@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Configuring SNMP for Cisco network devices and create new host at Zabbix server"
-date:   2022-08-17 16:21:30 +0900
+date:   2023-06-21 16:21:30 +0900
 categories: Zabbix
 tags: Zabbix
 permalink: /Networks/Zabbix/Zabbix-overall/Zabbix-cisco
